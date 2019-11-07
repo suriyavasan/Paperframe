@@ -141,14 +141,13 @@
   }
 }
 
-.btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
-  font-size: 80%;
+.btn { box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+padding: 1.25rem 2rem;
+font-family: 'Varela Round';
+font-size: 80%;
 
-  letter-spacing: .15rem;
-  border: 0;
+letter-spacing: .15rem;
+border: 0;
 }
 
 .btn2 {
@@ -310,4 +309,32 @@ a:focus, a:hover {
 
 footer {
   padding: 6rem 0;
+}
+
+
+@media only screen and (min-width:100px) and (max-width:555px) {
+    .work_submain {
+        width: 100%;
+        margin: 0;
+    }
+
+    .work_main {
+         flex-direction: column;
+    }
+
+    img.work_img {
+        margin-top: 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0 50px;
+    }
+
+    .user_email {
+        font-size: 20px;
+        margin-top: 30px;
+    }
 }
